@@ -1,0 +1,153 @@
+[2023-10-20T15:20:47.047Z] [org.springframework.test.context.support.AbstractTestContextBootstrapper] [main] [305] [INFO ] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cab.bookcab.BookcabApplicationTests], using SpringBootContextLoader
+[2023-10-20T15:20:47.047Z] [org.springframework.test.context.support.AbstractContextLoader] [main] [264] [INFO ] Could not detect default resource locations for test class [com.cab.bookcab.BookcabApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2023-10-20T15:20:47.047Z] [org.springframework.test.context.support.AnnotationConfigContextLoaderUtils] [main] [83] [INFO ] Could not detect default configuration classes for test class [com.cab.bookcab.BookcabApplicationTests]: BookcabApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2023-10-20T15:20:47.047Z] [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] [main] [239] [INFO ] Found @SpringBootConfiguration com.cab.bookcab.BookcabApplication for test class com.cab.bookcab.BookcabApplicationTests
+[2023-10-20T15:20:47.047Z] [org.springframework.test.context.support.AbstractTestContextBootstrapper] [main] [245] [INFO ] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2023-10-20T15:20:47.047Z] [org.springframework.test.context.support.AbstractTestContextBootstrapper] [main] [174] [INFO ] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2dd80673, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4af0df05, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@57ea113a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@acdb094, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@674bd420, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2b0f373b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2ceb80a1, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4b45dcb8, org.springframework.test.context.event.EventPublishingTestExecutionListener@7216fb24, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2072acb2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@50ecde95, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@35a9782c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@70a36a66, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@45815ffc, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@732f29af]
+[2023-10-20T15:20:48.048Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting BookcabApplicationTests using Java 20.0.1 on INBook_X1 with PID 328 (started by saura in D:\Projects\bookcab\bookcab)
+[2023-10-20T15:20:48.048Z] [org.springframework.boot.SpringApplication] [main] [631] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2023-10-20T15:20:49.049Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-10-20T15:20:49.049Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interfaces.
+[2023-10-20T15:20:50.050Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2023-10-20T15:20:50.050Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2023-10-20T15:20:50.050Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-10-20T15:20:50.050Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-10-20T15:20:50.050Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-10-20T15:20:51.051Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2023-10-20T15:20:51.051Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-10-20T15:20:51.051Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-10-20T15:20:52.052Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [223] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-10-20T15:20:53.053Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started BookcabApplicationTests in 5.193 seconds (JVM running for 6.65)
+[2023-10-20T15:20:53.053Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-10-20T15:20:53.053Z] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [SpringApplicationShutdownHook] [538] [INFO ] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2023-10-20T15:20:53.053Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2023-10-20T15:20:53.053Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2023-10-20T15:23:01.001Z] [org.springframework.test.context.support.AbstractTestContextBootstrapper] [main] [305] [INFO ] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cab.bookcab.BookcabApplicationTests], using SpringBootContextLoader
+[2023-10-20T15:23:01.001Z] [org.springframework.test.context.support.AbstractContextLoader] [main] [264] [INFO ] Could not detect default resource locations for test class [com.cab.bookcab.BookcabApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2023-10-20T15:23:01.001Z] [org.springframework.test.context.support.AnnotationConfigContextLoaderUtils] [main] [83] [INFO ] Could not detect default configuration classes for test class [com.cab.bookcab.BookcabApplicationTests]: BookcabApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2023-10-20T15:23:01.001Z] [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] [main] [239] [INFO ] Found @SpringBootConfiguration com.cab.bookcab.BookcabApplication for test class com.cab.bookcab.BookcabApplicationTests
+[2023-10-20T15:23:01.001Z] [org.springframework.test.context.support.AbstractTestContextBootstrapper] [main] [245] [INFO ] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2023-10-20T15:23:01.001Z] [org.springframework.test.context.support.AbstractTestContextBootstrapper] [main] [174] [INFO ] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2dd80673, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4af0df05, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@57ea113a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@acdb094, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@674bd420, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2b0f373b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2ceb80a1, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4b45dcb8, org.springframework.test.context.event.EventPublishingTestExecutionListener@7216fb24, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2072acb2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@50ecde95, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@35a9782c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@70a36a66, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@45815ffc, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@732f29af]
+[2023-10-20T15:23:01.001Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting BookcabApplicationTests using Java 20.0.1 on INBook_X1 with PID 6064 (started by saura in D:\Projects\bookcab\bookcab)
+[2023-10-20T15:23:01.001Z] [org.springframework.boot.SpringApplication] [main] [631] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2023-10-20T15:23:02.002Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-10-20T15:23:02.002Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+[2023-10-20T15:23:03.003Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2023-10-20T15:23:03.003Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2023-10-20T15:23:03.003Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-10-20T15:23:03.003Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-10-20T15:23:03.003Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-10-20T15:23:04.004Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2023-10-20T15:23:04.004Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-10-20T15:23:04.004Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-10-20T15:23:05.005Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [223] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-10-20T15:23:05.005Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [main] [98] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2023-10-20T15:23:06.006Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started BookcabApplicationTests in 5.019 seconds (JVM running for 6.229)
+[2023-10-20T15:23:06.006Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-10-20T15:23:06.006Z] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [SpringApplicationShutdownHook] [538] [INFO ] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2023-10-20T15:23:06.006Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2023-10-20T15:23:06.006Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2023-10-20T15:26:04.004Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting BookcabApplication using Java 20.0.1 on INBook_X1 with PID 9360 (D:\Projects\bookcab\bookcab\target\classes started by saura in D:\Projects\bookcab\bookcab)
+[2023-10-20T15:26:04.004Z] [org.springframework.boot.SpringApplication] [main] [631] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2023-10-20T15:26:05.005Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-10-20T15:26:05.005Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+[2023-10-20T15:26:06.006Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 9090 (http)
+[2023-10-20T15:26:06.006Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-9090"]
+[2023-10-20T15:26:06.006Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2023-10-20T15:26:06.006Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.76]
+[2023-10-20T15:26:06.006Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2023-10-20T15:26:06.006Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 1939 ms
+[2023-10-20T15:26:06.006Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2023-10-20T15:26:06.006Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2023-10-20T15:26:06.006Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [main] [98] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2023-10-20T15:26:06.006Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-10-20T15:26:06.006Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-10-20T15:26:07.007Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-10-20T15:26:07.007Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2023-10-20T15:26:07.007Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-10-20T15:26:07.007Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-10-20T15:26:08.008Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [223] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-10-20T15:26:08.008Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-9090"]
+[2023-10-20T15:26:08.008Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 9090 (http) with context path ''
+[2023-10-20T15:26:08.008Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started BookcabApplication in 4.843 seconds (JVM running for 5.518)
+[2023-10-20T15:31:36.036Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting BookcabApplication using Java 20.0.1 on INBook_X1 with PID 8652 (D:\Projects\bookcab\bookcab\target\classes started by saura in D:\Projects\bookcab\bookcab)
+[2023-10-20T15:31:36.036Z] [org.springframework.boot.SpringApplication] [main] [631] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2023-10-20T15:31:36.036Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-10-20T15:31:37.037Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interfaces.
+[2023-10-20T15:31:38.038Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 9090 (http)
+[2023-10-20T15:31:38.038Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-9090"]
+[2023-10-20T15:31:38.038Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2023-10-20T15:31:38.038Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.76]
+[2023-10-20T15:31:38.038Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2023-10-20T15:31:38.038Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 2068 ms
+[2023-10-20T15:31:38.038Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2023-10-20T15:31:38.038Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2023-10-20T15:31:38.038Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [main] [98] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2023-10-20T15:31:38.038Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-10-20T15:31:38.038Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-10-20T15:31:38.038Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-10-20T15:31:39.039Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2023-10-20T15:31:39.039Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-10-20T15:31:39.039Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-10-20T15:31:40.040Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [223] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-10-20T15:31:40.040Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-9090"]
+[2023-10-20T15:31:40.040Z] [org.springframework.context.support.AbstractApplicationContext] [main] [591] [WARN ] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9090 is already in use
+[2023-10-20T15:31:40.040Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-10-20T15:31:40.040Z] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [main] [538] [INFO ] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2023-10-20T15:31:40.040Z] [com.zaxxer.hikari.HikariDataSource] [main] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2023-10-20T15:31:40.040Z] [com.zaxxer.hikari.HikariDataSource] [main] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2023-10-20T15:31:40.040Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Pausing ProtocolHandler ["http-nio-9090"]
+[2023-10-20T15:31:40.040Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Stopping service [Tomcat]
+[2023-10-20T15:31:40.040Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Stopping ProtocolHandler ["http-nio-9090"]
+[2023-10-20T15:31:40.040Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Destroying ProtocolHandler ["http-nio-9090"]
+[2023-10-20T15:31:40.040Z] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [main] [136] [INFO ] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2023-10-20T15:31:40.040Z] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [main] [40] [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9090 or configure this application to listen on another port.
+
+[2023-10-20T15:32:29.029Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting BookcabApplication using Java 20.0.1 on INBook_X1 with PID 14460 (D:\Projects\bookcab\bookcab\target\classes started by saura in D:\Projects\bookcab\bookcab)
+[2023-10-20T15:32:29.029Z] [org.springframework.boot.SpringApplication] [main] [631] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2023-10-20T15:32:30.030Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-10-20T15:32:30.030Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+[2023-10-20T15:32:31.031Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 9090 (http)
+[2023-10-20T15:32:31.031Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-9090"]
+[2023-10-20T15:32:31.031Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2023-10-20T15:32:31.031Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.76]
+[2023-10-20T15:32:31.031Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2023-10-20T15:32:31.031Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 1758 ms
+[2023-10-20T15:32:31.031Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2023-10-20T15:32:31.031Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2023-10-20T15:32:31.031Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [main] [98] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2023-10-20T15:32:32.032Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-10-20T15:32:32.032Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-10-20T15:32:32.032Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-10-20T15:32:32.032Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2023-10-20T15:32:33.033Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-10-20T15:32:33.033Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-10-20T15:32:33.033Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [223] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-10-20T15:32:34.034Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-9090"]
+[2023-10-20T15:32:34.034Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 9090 (http) with context path ''
+[2023-10-20T15:32:34.034Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started BookcabApplication in 4.973 seconds (JVM running for 5.657)
+[2023-10-20T15:32:49.049Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-9090-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-10-20T15:32:49.049Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-9090-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2023-10-20T15:32:49.049Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-9090-exec-2] [547] [INFO ] Completed initialization in 5 ms
+[2023-10-20T15:32:49.049Z] [com.cab.bookcab.controller.BookCabController] [http-nio-9090-exec-2] [28] [INFO ] BookCabEntity [id=1, name=saurabh, phone=9876543112, pickup=pune, destination=katraj, fare=345555.4, paymentmode=phonepe]
+[2023-10-20T15:32:49.049Z] [com.cab.bookcab.controller.BookCabController] [http-nio-9090-exec-2] [29] [INFO ] Cab Booked Successfully.
+[2023-10-20T15:32:49.049Z] [com.cab.bookcab.service.BookCabService] [http-nio-9090-exec-2] [26] [INFO ] BookCabEntity [id=1, name=saurabh, phone=9876543112, pickup=pune, destination=katraj, fare=345555.4, paymentmode=phonepe]
+[2023-10-20T15:32:49.049Z] [com.cab.bookcab.service.BookCabService] [http-nio-9090-exec-2] [27] [INFO ] Cab Booked Successfully.
+[2023-10-20T15:47:52.052Z] [com.cab.bookcab.controller.BookCabController] [http-nio-9090-exec-1] [28] [INFO ] BookCabEntity [id=1, name=Saurabh, phone=8888239237, pickup=Dehu, destination=Katraj, fare=820.0, paymentmode=Phonepe]
+[2023-10-20T15:47:52.052Z] [com.cab.bookcab.controller.BookCabController] [http-nio-9090-exec-1] [29] [INFO ] Cab Booked Successfully.
+[2023-10-20T15:47:52.052Z] [com.cab.bookcab.service.BookCabService] [http-nio-9090-exec-1] [26] [INFO ] BookCabEntity [id=1, name=Saurabh, phone=8888239237, pickup=Dehu, destination=Katraj, fare=820.0, paymentmode=Phonepe]
+[2023-10-20T15:47:52.052Z] [com.cab.bookcab.service.BookCabService] [http-nio-9090-exec-1] [27] [INFO ] Cab Booked Successfully.
